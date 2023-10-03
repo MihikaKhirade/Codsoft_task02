@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins&family=Varela+Round&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+    
+
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(image01.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    position: relative;
+    color: #000;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+header .navigation a{
+    color: #000;
+    background: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.5s;
+    transition-property: background;
+}
+header .navigation a:not(:last-child){
+    margin-right: 30px;
+}
+header .navigation a:hover{
+   background: #2782b8;
+}
+
+.content{
+    max-width: 650px;
+    margin: 60px 100px;
+}
+
+.content .info h2{
+    color: rgb(126, 6, 96);
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+.content .info p{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 40px ;
+    
+}
+
+.info .button{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+   
+    height: 50px;
+    width: 345px;
+    transition: all ease .50s;
+}
+
+.button a{
+ 
+ display: inline-flex;
+ justify-content: space-evenly;
+ align-items: center;
+ width: 150px;
+ height: 80%;
+ background: rgb(153, 191, 226);
+ border: 2px solid black;
+ border-radius: 10px;
+ font-size: 15px;
+ text-decoration: none;
+ font-weight: 600;
+ color: black;
+ letter-spacing: 1px;
+ 
+
+}
+
+ .button a:hover{
+    transform: translateX(5px);
+    background-color: rgb(113, 29, 190);
+    border: 2px solid var(black);
+}
+
+.media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.media-icons a{
+    position: relative;
+    color:#000;
+    font-size: 25px;
+    transition: 0.3s;
+    transition-property: transform;
+}
+.media-icons a:not(:last-child){
+    margin-right: 60px;
+}
+.media-icons a:hover{
+    transform: scale(1.5);
+}
